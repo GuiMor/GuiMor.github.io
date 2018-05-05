@@ -132,8 +132,8 @@ lyr_BoucledeGageacRouillac_5.set('fieldAliases', {'id': 'id', 'Revetement': 'Rev
 lyr_BoucledeMonestier_6.set('fieldAliases', {'id': 'id', 'Nom': 'Nom', });
 lyr_BoucledeLaBastide_7.set('fieldAliases', {'id': 'id', 'Nom': 'Nom', });
 lyr_BoucledeCouture_8.set('fieldAliases', {'FID': 'FID', 'nom': 'nom', });
-lyr_Pointdarrive_9.set('fieldAliases', {'id': 'id', 'Arrivee': 'Arrivee', 'Pt-arrivee': 'Pt-arrivee', 'point': 'point', 'layer': 'layer', 'path': 'path', });
-lyr_Pointdedpart_10.set('fieldAliases', {'id': 'id', 'Depart': 'Depart', 'Pt-Depart': 'Pt-Depart', 'point': 'point', 'layer': 'layer', 'path': 'path', });
+lyr_Pointdarrive_9.set('fieldAliases', {'id': 'id', 'Arrivee': 'Arrivee', });
+lyr_Pointdedpart_10.set('fieldAliases', {'id': 'id', 'Depart': 'Depart', });
 lyr_BoucledeSaussignac_1.set('fieldImages', {'id': 'TextEdit', 'nom': 'TextEdit', });
 lyr_BoucledeRazacdeSaussignac3_2.set('fieldImages', {'id': 'TextEdit', 'Nom': 'TextEdit', });
 lyr_BoucledeRazacdeSaussignac2_3.set('fieldImages', {'id': 'TextEdit', 'Nom': 'TextEdit', });
@@ -142,8 +142,8 @@ lyr_BoucledeGageacRouillac_5.set('fieldImages', {'id': 'TextEdit', 'Revetement':
 lyr_BoucledeMonestier_6.set('fieldImages', {'id': 'TextEdit', 'Nom': 'TextEdit', });
 lyr_BoucledeLaBastide_7.set('fieldImages', {'id': 'TextEdit', 'Nom': 'TextEdit', });
 lyr_BoucledeCouture_8.set('fieldImages', {'FID': 'TextEdit', 'nom': 'TextEdit', });
-lyr_Pointdarrive_9.set('fieldImages', {'id': 'TextEdit', 'Arrivee': 'TextEdit', 'Pt-arrivee': 'TextEdit', 'point': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
-lyr_Pointdedpart_10.set('fieldImages', {'id': 'TextEdit', 'Depart': 'TextEdit', 'Pt-Depart': 'TextEdit', 'point': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', });
+lyr_Pointdarrive_9.set('fieldImages', {'id': 'TextEdit', 'Arrivee': 'TextEdit', });
+lyr_Pointdedpart_10.set('fieldImages', {'id': 'TextEdit', 'Depart': 'TextEdit', });
 lyr_BoucledeSaussignac_1.set('fieldLabels', {'id': 'no label', 'nom': 'no label', });
 lyr_BoucledeRazacdeSaussignac3_2.set('fieldLabels', {'id': 'no label', 'Nom': 'no label', });
 lyr_BoucledeRazacdeSaussignac2_3.set('fieldLabels', {'id': 'no label', 'Nom': 'no label', });
@@ -152,8 +152,8 @@ lyr_BoucledeGageacRouillac_5.set('fieldLabels', {'id': 'no label', 'Revetement':
 lyr_BoucledeMonestier_6.set('fieldLabels', {'id': 'no label', 'Nom': 'no label', });
 lyr_BoucledeLaBastide_7.set('fieldLabels', {'id': 'no label', 'Nom': 'no label', });
 lyr_BoucledeCouture_8.set('fieldLabels', {'FID': 'no label', 'nom': 'no label', });
-lyr_Pointdarrive_9.set('fieldLabels', {'id': 'no label', 'Arrivee': 'no label', 'Pt-arrivee': 'no label', 'point': 'no label', 'layer': 'no label', 'path': 'no label', });
-lyr_Pointdedpart_10.set('fieldLabels', {'id': 'no label', 'Depart': 'no label', 'Pt-Depart': 'no label', 'point': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_Pointdarrive_9.set('fieldLabels', {'id': 'no label', 'Arrivee': 'no label', });
+lyr_Pointdedpart_10.set('fieldLabels', {'id': 'no label', 'Depart': 'no label', });
 lyr_Pointdedpart_10.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
